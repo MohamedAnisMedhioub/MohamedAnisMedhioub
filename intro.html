@@ -1,0 +1,323 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Welcome to my Website !">
+        
+        
+        <style>
+        p{color:red}
+        
+        table,td,th {border : 1 px solid #676767}
+        table{width : 500px}
+        thead td {font-weight: bold ; text-align : center ; color : #FFF ; background : #333 ; padding : 5px }
+        tfoot td {font-weight: bold ; text-align : center ; color : #F00 ; background : #DDD ; padding : 5px }  
+        tbody td {text-align : center ; padding : 5px ; background : #EFEFEF } 
+        </style>
+
+
+
+        <title> Our first page</title>
+        <link rel="stylesheet" >
+        <!--<script>alert("WELCOME");</script>-->
+        <!--C'est un commentaire-->
+    </head>
+    <body>
+        <h1> NEW PAGE </h1>
+        <p> This is our first page </p>
+        <br> <!--Retour à la ligne-->
+        <a href="http://www.google.com/" target="_blank">Google</a>
+        <br>
+        <a href="http://www.facebook.com/" target="_self">Facebook</a>
+        <p> Hello again from Paragraph
+            <br><br><br>
+            Other line 
+        </p>
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+        <div class="Chapter1"> 
+            <h1>New life</h1>
+            <p> Hello I am Anis </p>
+        </div>
+        <h2>Unordered List</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <h2>Order List</h2>
+        <ol type="A"> <!--Déclarer le type (Ex : reversed)-->
+            <li>Learn HTML</li>
+              <ul>
+                <li> HTML 4.0</li>
+                <li> HTML 5.0</li>
+              </ul>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+        </ol>
+        <h2> Description List </h2>
+        <dl> <!--Description List-->
+            <dt> HTML </dt>
+            <dd> Easy Language </dd>
+        </dl>
+        <p> <b>Mohamed Anis MEDHIOUB</b> </p> <!--Texte en gras-->
+        <p><i>HaHaHa</i></p> <!--Texte italic (<em>)-->
+        <p><small>HaHaHa</small></p>
+        <p><strong>HaHaHa</strong></p> <!--Texte en gras-->
+        <blockquote> <q> <mark>COURS HTML</mark> </q> </blockquote>
+        <br>
+        <del> Wrong sentence </del>
+        <br>
+        <ins> HELLO </ins>
+        <br>
+        <p>1<sup>ère</sup> année</p> 
+        <p>H<sub>2</sub>O</p>
+
+<!----------------------------------------------------------------------->
+
+        <!--Table-->
+        <table border="1" align = center> 
+            <caption> Web Skills </caption>
+            <tr>
+                <td>HTML</td> <!-- td : Table Data -->
+                <td>CSS</td>
+                <td>JavaScript</td> 
+            </tr>             <!-- tr : Table Row -->
+            <tr>
+                <td> ***</td>
+                <td> ***</td>
+                <td> ***</td> 
+            </tr>
+        </table>
+       
+        <br>
+        <table>
+            <caption> Our Plan </caption>
+            <thead>  <!--1ère ligne du tableau-->
+            <tr> 
+                <td> Plan1 </td>
+                <td> Plan2 </td>
+                <td> Plan3 </td>      
+            </tr>
+            </thead>
+             
+        <tbody>
+            <tr>
+                <td> AAAA </td>
+                <td> BBBB </td>
+                <td> CCCC </td>
+            </tr>
+        </tbody>
+         
+        <tfoot>   <!--Dernière ligne du tableau -->
+            <tr>
+                <td> **** </td>
+                <td> **** </td>
+                <td> **** </td>
+            </tr> 
+        </tfoot>
+            
+        </table>
+        <br>
+
+        <table>
+            <caption> TABLE 1 </caption>
+            <tr>
+                <td colspan="2"> Programming</td>
+                
+                <td colspan="3"> Web Design</td>
+                
+            </tr>
+            <tr>
+                <td> PHP</td>
+                <td> MySQL</td>
+                <td> HTML</td>
+                <td> CSS</td>
+                <td> jQuery</td>
+
+            </tr>
+        </table>
+        <br>
+
+        <table>
+            <caption> TABLE 2 </caption>
+            <tr>
+                <td> <b>Name</b> </td>
+                <td> <b>Email</b></td>
+            </tr>
+            <tr>
+                <td rowspan="2"> Anis  </td>
+                <td> Anis@***</td>
+            </tr>
+            <tr>
+                
+                <td> Nousa@***</td>
+            </tr>
+            <tr>
+                <td> Mohamed </td>
+                <td> Mohamed@***</td>
+            </tr>
+        </table>
+        <br>
+
+        <table>
+            <caption> TABLE 3 </caption>
+            <colgroup>
+                <col span="2" style="background : #EEE">
+                <col span="3" style="background : #DDD">
+                <col span="4" style="background : #AAA">
+                <col span="5" style="background : #FFF">
+            </colgroup>
+            <tr>
+                <td> Programming</td>
+                <td> Programming</td>
+                <td> Web Design</td>
+                <td> Web Design</td>
+                <td> Web Design</td>
+
+                
+            </tr>
+            <tr>
+                <td> PHP</td>
+                <td> MySQL</td>
+                <td> HTML</td>
+                <td> CSS</td>
+                <td> jQuery</td>
+
+            </tr>
+        </table>
+
+ <!---------------------------------------------------------------------->
+ <br>
+ <style>
+    .TEST1 
+    { color: black ; background:yellow }
+    .TEST2
+    {color:blue}
+ </style> 
+ <div class="TEST1">
+    <span> *** </span> Div 1 <span> *** </span>
+ </div>
+ <div class="TEST2">
+    Div 2
+ </div>
+ <div class="TEST1">
+    Div 3
+ </div>
+ <br>
+
+ <!---------------------------------------------------------------------->
+<script>
+    function SayHello()
+    {
+     alert ("Hello HTML") ; 
+    }
+</script>
+<style>
+    fieldset {background:#EFEFEF ; padding:10px ; border:1px solid #CCC ;margin-bottom:"20px" }
+    legend {background:#FFF;border:1px solid #CCC; padding: 5px}
+</style>
+ <form name="Register">
+    <hr>
+    <fieldset>
+        <legend><b>Personal Informations</b></legend>
+    <label> <b>Username</b> </label>
+    <input type="text" name="username" placeholder="Type Your Name" maxlength="22">
+    <br>
+    <label> <b>Password</b> </label>
+    <input type="password" name="password" placeholder="Type Your Password"> 
+    </fieldset>
+    <br>
+    <hr>
+    <label><b>Your Message</b></label> <br>
+    <textarea rows="6" cols="40" readonly> * * *  </textarea> <br>
+    <label> Upload Your CV </label>
+    <input type="file">
+    <br>
+
+    <input type="checkbox">
+    <label>Remember me !</label>
+    <br>
+    <hr>
+    <fieldset>
+        <legend> <b>Your Favourite</b></legend>
+    
+    <label> Choose your Mobile</label> <br>
+    <input type="radio" name="mobile" value="Iphone"> Iphone <br>
+    <input type="radio" name="mobile" value="Samsung"> Samsung
+    </fieldset>
+    <br>
+    <hr>
+    <input type="hidden" value="Testing">
+    <fieldset>
+        <legend> <b>Send Options</b></legend>
+        <select name="Time" size="1">
+            <optgroup label="Near Time">
+            <option>Now </option>
+            <option>Tomorrow</option>
+            </optgroup>
+            <optgroup label="Far Time">
+            <option>After a week</option>
+            </optgroup>
+        </select>
+    <input type="button" name="Say Hello" value="Say Hello" onclick="SayHello()">
+    <input type="submit" value="Login">  
+    <input type="Reset" value="Restore Default">
+    <input type="image" src="http://placehold.it/100/100" alt="Submit">
+
+    </fieldset>
+    <hr>
+ </form>
+<br>
+ <!---------------------------------------------------------------------->
+<style>
+    iframe { width:700px ; weight:400px; margin:20px ; overflow : hidden ; border:5px solid #676767}
+</style>
+ <iframe name="W3_Org" src="http://www.w3.org" scrolling="auto" ></iframe>
+
+ <!---------------------------------------------------------------------->
+<hr>
+ MOHAMED &nbsp;&nbsp;&nbsp;&nbsp; ANIS &nbsp;&nbsp;&nbsp;&nbsp; MEDHIOUB
+ <hr>
+ <br>
+ &lt; HELLO &gt;
+ <br>
+ &amp;
+ <br>
+ &cent; &pound; &yen; &euro; 
+ <br>
+ Copyright &copy; 
+ <br> 
+ Trademark &reg;
+
+ <!---------------------------------------------------------------------->
+ <style>
+    header
+    {
+        background : #333 ; 
+        color : #FFF; 
+        font-size :20px ;
+        text-align:center 
+    }
+ </style>
+ <body> 
+ <div classe="header">
+    HTML
+ </div>
+ <div classe="navigation">
+    HTML
+ </div>
+ <div classe="content">
+    HTML
+ </div><div classe="footer">
+    HTML
+ </div>
+</body>
+
+<!----------------------------------------------------------------------->
+
+
+    </body>
+</html>
+
+    
+
